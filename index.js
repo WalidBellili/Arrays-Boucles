@@ -148,3 +148,12 @@
 // console.log(result);
 
 // exo3
+
+const numbers = [1, 2, 3, 4, 5]
+const squares = []
+const roots = []
+
+for (let i = 0; i < numbers.length; i ++) {
+    squares[i] = numbers[i]**2
+    console.log(squares);
+}
