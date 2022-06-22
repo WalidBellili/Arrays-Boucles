@@ -85,3 +85,5 @@
 // exo9
 
 const students = ["Walid","Wade","Rayan","Walid","Benoit","Emad","Jad","Lynda","Florez","Lucas","Arthur","Thomas","Aurelien","Clara","Danh","Cinie","Edaly","Mago","Dushen","Julien","Florent"];
+let array = students[Math.floor(Math.random()*students.length)]
+console.log(array);
