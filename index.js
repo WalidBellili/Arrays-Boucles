@@ -120,18 +120,31 @@
 // }
 // console.log(max);
 // *****************************************
-let min = 11
-let max = 47
+// let min = 11
+// let max = 47
 
-let result = 0
+// let result = 0
 
-for (let i = 11; i < 47; i++) {
+// for (let i = 11; i < 47; i++) {
     
-    if (i % 2 === 0) {
-        result +=   i;
-       
-        
-    }
+//     if (i % 2 === 0) {
+//         result +=   i;       
+//     }  
+// }
+// console.log(result);
+
+// exo2
+// let min = 109
+// let max = 588
+
+// let result = 0
+
+// for (let i = 109; i < 588; i++) {
     
-}
-console.log(result);
+//     if (i % 2 === 1) {
+//         result +=   i;       
+//     }  
+// }
+// console.log(result);
+
+// exo3
