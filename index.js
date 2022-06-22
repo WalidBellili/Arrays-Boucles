@@ -102,20 +102,36 @@
 //      console.log(array);
     
 // }
-let array = []
-for (let i =0; i <20; i++) {
+// PARTIE 2 du 10
+// let array = []
+// for (let i =0; i <20; i++) {
 
-     array[i] = Math.floor(Math.random()*101)
-    //  console.log(array);
+//      array[i] = Math.floor(Math.random()*101)
+//     //  console.log(array);
     
-}
+// }
 
-let max = 0
-for (let i = 0; i < array.length; i++) {
+// let max = 0
+// for (let i = 0; i < array.length; i++) {
     
-    if (max < array[i]) {
-        max = array[i]  
+//     if (max < array[i]) {
+//         max = array[i]  
+//     }
+// }
+// console.log(max);
+// *****************************************
+let min = 11
+let max = 47
+
+let result = 0
+
+for (let i = 11; i < 47; i++) {
+    
+    if (i % 2 === 0) {
+        result +=   i;
+       
+        
     }
+    
 }
-console.log(max);
-
+console.log(result);
