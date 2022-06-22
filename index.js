@@ -84,6 +84,38 @@
 
 // exo9
 
-const students = ["Walid","Wade","Rayan","Walid","Benoit","Emad","Jad","Lynda","Florez","Lucas","Arthur","Thomas","Aurelien","Clara","Danh","Cinie","Edaly","Mago","Dushen","Julien","Florent"];
-let array = students[Math.floor(Math.random()*students.length)]
-console.log(array);
+// const students = ["Walid","Wade","Rayan","Walid","Benoit","Emad","Jad","Lynda","Florez","Lucas","Arthur","Thomas","Aurelien","Clara","Danh","Cinie","Edaly","Mago","Dushen","Julien","Florent"];
+// let array = students[Math.floor(Math.random()*students.length)]
+// console.log(array);
+
+// exo10
+
+
+
+// let array = []
+// for (let i =0; i <20; i++) {
+    
+//      array.push(Math.floor(Math.random()*101));
+//      console.log(array);
+
+//      array[i] = Math.floor(Math.random()*101) 
+//      console.log(array);
+    
+// }
+let array = []
+for (let i =0; i <20; i++) {
+
+     array[i] = Math.floor(Math.random()*101)
+    //  console.log(array);
+    
+}
+
+let max = 0
+for (let i = 0; i < array.length; i++) {
+    
+    if (max < array[i]) {
+        max = array[i]  
+    }
+}
+console.log(max);
+
