@@ -85,7 +85,7 @@
 // exo9
 
 // const students = ["Walid","Wade","Rayan","Walid","Benoit","Emad","Jad","Lynda","Florez","Lucas","Arthur","Thomas","Aurelien","Clara","Danh","Cinie","Edaly","Mago","Dushen","Julien","Florent"];
-// let array = students[Math.floor(Math.random()*students.length)]
+// let array = students[Math.floor(Math.random()*students.length -1)]
 // console.log(array);
 
 // exo10
@@ -163,14 +163,72 @@
 //     console.log(roots);
 
 
-exo4
+// exo4
 
-let multiplication = 0
+// let multiplication = 0
+// let init = 0
 
-for (let i = 0; i < 30; i++) {
+// for (let i = 0; i < 11; i++) {
+//     const result =i *3;    
+//     console.log(`3 * ${i} = ${result}`);
+// }
 
-    if (modulo de 3) {
+// exo5
+// const multiplicateur = 0
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
+//     for (let j = 0; j <= 10; j++) {
+//         console.log(j);
+//     }
+// }
 
-    }
+// exo8
 
-}
+// let factorial = 1
+// for (let i = 1; i < 8; i++) { 
+//     for (let j = 1; j < i; j++) { 
+//     }
+//     console.log(factorial);
+//     factorial = factorial * i
+    
+// }
+
+
+// console.log(factorial);
+
+// Lancez un dé 20 fois et affichez la somme de tout les résultats plus grand ou égal à 5
+// exo 10
+// let des = 0
+// for (let i =0; i <= 19; i++){
+//     des = Math.ceil(Math.random()* 6)
+//     des = des + i 
+
+//     if (des >= 5) {
+//         console.log(des + i );
+//     }
+
+// }
+
+
+// var box1 = 12;
+// var box2 = 5;
+
+// for (var i = 12; i < 14; i++) {
+//     box1 = box2;
+//     console.log(box1 + box2);
+//     box2 = box1 + i;
+// }
+
+// console.log(box1+"box1");
+// console.log(box2+"box2");
+// console.log(i + "i");
+// var box1 = 12;
+
+// for (var i = 12; i !== 0; i = i - 3) {
+//     console.log(box1);
+//     box1 = box1 + i;
+// }
+
+// console.log(box1);
+// console.log(i); 
+// il ne fait pas le dernier tour de 45 donc le tour jusqu'à zero ne tourne oas
